@@ -1,0 +1,7 @@
+{
+  "name": "Hodor",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
