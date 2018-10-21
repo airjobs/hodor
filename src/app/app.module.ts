@@ -1,3 +1,4 @@
+import { ComponentsModule } from './../components/components.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -6,7 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ProvidersJobProvider } from '../providers/providers-job/providers-job';
+import { JobsProvider } from '../providers/jobs/jobs';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { ProvidersJobProvider } from '../providers/providers-job/providers-job';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    ComponentsModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -26,7 +30,7 @@ import { ProvidersJobProvider } from '../providers/providers-job/providers-job';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ProvidersJobProvider
+    JobsProvider
   ]
 })
 export class AppModule {}
