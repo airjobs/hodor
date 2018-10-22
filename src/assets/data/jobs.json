@@ -13,7 +13,8 @@
         "state": "São Paulo",
         "countryName": "Brasil",
         "latitude": -23.343995,
-        "longitude": -47.867382
+        "longitude": -47.867382,
+        "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
     },
     {
         "id": "a1636e7f-bbea-4015-b1e7-2ecd4e51de55",
@@ -29,7 +30,8 @@
         "state": "São Paulo",
         "countryName": "Brasil",
         "latitude": -23.343995,
-        "longitude": -47.867382
+        "longitude": -47.867382,
+        "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
     },
     {
         "id": "faedde5a-b836-40e7-a50e-395710bc3f66",
@@ -45,6 +47,7 @@
         "state": "São Paulo",
         "countryName": "Brasil",
         "latitude": -23.343995,
-        "longitude": -47.867382
+        "longitude": -47.867382,
+        "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
     }
 ]

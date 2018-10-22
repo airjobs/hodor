@@ -10,5 +10,8 @@ export interface JobModel{
     neighborhood: string,
     cityName: string,
     state: string,
-    countryName: string
+    countryName: string,
+    longitude: number,
+    latitude: number,
+    smartLockId: string
 }
