@@ -7,4 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class JobCardComponent {
   @Input('job') job: JobModel;
+
+  public abriDetalhes(job: JobModel){
+    console.log(job.title);
+  }
 }

@@ -1,4 +1,13 @@
 <!-- Generated template for the JobCardComponent component -->
-<div>
-  {{job.title}}
-</div>
+<ion-card>
+  <ion-card-header>
+    <ion-item>
+        {{job.title}}
+        <ion-badge item-end color="secondary">{{job.price | currency:'R$'}}</ion-badge>
+    </ion-item>
+  </ion-card-header>
+  <ion-card-content>
+      <ion-img [src]="job.imageUrl" ></ion-img>
+      <button ion-button block (click)="abriDetalhes(job)">Detalhes</button>
+  </ion-card-content>
+</ion-card>
