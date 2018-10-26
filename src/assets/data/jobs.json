@@ -1,53 +1,59 @@
 [
-    {
-        "id": "895af230-d2a4-4a88-a712-55d2a9744801",
-        "title": "Job 1",
-        "description": "Lorem ipsum mattis mauris cras sodales nulla proin, eu felis eu molestie suspendisse class ligula, suscipit dapibus eleifend posuere semper tempus, eu amet litora sapien habitasse augue. litora sollicitudin faucibus conubia imperdiet lectus cras conubia morbi molestie phasellus nisl iaculis netus pharetra",
-        "createdDate": "2018-10-21T22:28:03.601Z",
-        "imageUrl": "https://resources.aluguetemporada.com.br/info/files/live/sites/br/files/contributed/shared/HIPS/Blog-Novo/destinos-brasil/sudeste/Campos-do-Jordao-Casa-6--ts-2017-04-20T14%3A54%3A05_320-05%3A00.jpg",
-        "price": 100,
-        "street": "Rua Leontina Pascoalotti",
-        "number": "158",
-        "neighborhood": "Jardim Planalto",
-        "cityName": "Tatuí",
-        "state": "São Paulo",
-        "countryName": "Brasil",
-        "latitude": -23.343995,
-        "longitude": -47.867382,
-        "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
+  {
+    "id": "895af230-d2a4-4a88-a712-55d2a9744801",
+    "title": "Job 1",
+    "description": "Lorem ipsum mattis mauris cras sodales nulla proin, eu felis eu molestie suspendisse class ligula, suscipit dapibus eleifend posuere semper tempus, eu amet litora sapien habitasse augue. litora sollicitudin faucibus conubia imperdiet lectus cras conubia morbi molestie phasellus nisl iaculis netus pharetra",
+    "schedulingDate": "2018-10-21T22:28:03.601Z",
+    "imageUrl": "https://resources.aluguetemporada.com.br/info/files/live/sites/br/files/contributed/shared/HIPS/Blog-Novo/destinos-brasil/sudeste/Campos-do-Jordao-Casa-6--ts-2017-04-20T14%3A54%3A05_320-05%3A00.jpg",
+    "price": 100,
+    "address": {
+      "street": "Rua Leontina Pascoalotti",
+      "number": "158",
+      "neighborhood": "Jardim Planalto",
+      "cityName": "Tatuí",
+      "state": "São Paulo",
+      "countryName": "Brasil",
+      "latitude": -23.343995,
+      "longitude": -47.867382
     },
-    {
-        "id": "a1636e7f-bbea-4015-b1e7-2ecd4e51de55",
-        "title": "Job 2",
-        "description": "Non pellentesque imperdiet ultricies fusce tortor suscipit primis et feugiat ac et, vestibulum pharetra donec cursus vestibulum hac et interdum commodo nulla, gravida interdum odio orci quisque venenatis id dui phasellus senectus. volutpat tempor",
-        "createdDate": "2018-10-21T22:28:03.601Z",
-        "imageUrl": "https://www.casaconceitoabc.com.br/wp-content/uploads/2017/05/banner-home-site-casa-conceito-sala.jpg",
-        "price": 120,
-        "street": "Rua Leontina Pascoalotti",
-        "number": "158",
-        "neighborhood": "Jardim Planalto",
-        "cityName": "Tatuí",
-        "state": "São Paulo",
-        "countryName": "Brasil",
-        "latitude": -23.343995,
-        "longitude": -47.867382,
-        "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
+    "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
+  },
+  {
+    "id": "a1636e7f-bbea-4015-b1e7-2ecd4e51de55",
+    "title": "Job 2",
+    "description": "Non pellentesque imperdiet ultricies fusce tortor suscipit primis et feugiat ac et, vestibulum pharetra donec cursus vestibulum hac et interdum commodo nulla, gravida interdum odio orci quisque venenatis id dui phasellus senectus. volutpat tempor",
+    "schedulingDate": "2018-11-10T22:28:03.601Z",
+    "imageUrl": "https://www.casaconceitoabc.com.br/wp-content/uploads/2017/05/banner-home-site-casa-conceito-sala.jpg",
+    "price": 120,
+    "address": {
+      "street": "Rua Leontina Pascoalotti",
+      "number": "158",
+      "neighborhood": "Jardim Planalto",
+      "cityName": "Tatuí",
+      "state": "São Paulo",
+      "countryName": "Brasil",
+      "latitude": -23.343995,
+      "longitude": -47.867382
     },
-    {
-        "id": "faedde5a-b836-40e7-a50e-395710bc3f66",
-        "title": "Job 3",
-        "description": "nullam varius orci venenatis fames viverra suspendisse vel dolor vel potenti accumsan convallis. pulvinar aptent pretium fusce ac sem sed proin porttitor, rhoncus aliquet sed id rhoncus platea blandit fringilla augue, fermentum diam litora aliquam taciti quisque tortor. litora aptent gravida tempor vivamus varius arcu accumsan sem hac aliquet, eu metus fermentum ultrices eleifend pharetra lacus et quis. ",
-        "createdDate": "2018-10-21T22:28:03.601Z",
-        "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/07/a7/8c/88/casa-interior-1.jpg",
-        "price": 80,
-        "street": "Rua Leontina Pascoalotti",
-        "number": "158",
-        "neighborhood": "Jardim Planalto",
-        "cityName": "Tatuí",
-        "state": "São Paulo",
-        "countryName": "Brasil",
-        "latitude": -23.343995,
-        "longitude": -47.867382,
-        "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
-    }
+    "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
+  },
+  {
+    "id": "faedde5a-b836-40e7-a50e-395710bc3f66",
+    "title": "Job 3",
+    "description": "nullam varius orci venenatis fames viverra suspendisse vel dolor vel potenti accumsan convallis. pulvinar aptent pretium fusce ac sem sed proin porttitor, rhoncus aliquet sed id rhoncus platea blandit fringilla augue, fermentum diam litora aliquam taciti quisque tortor. litora aptent gravida tempor vivamus varius arcu accumsan sem hac aliquet, eu metus fermentum ultrices eleifend pharetra lacus et quis. ",
+    "schedulingDate": "2018-12-20T22:28:03.601Z",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/07/a7/8c/88/casa-interior-1.jpg",
+    "price": 80,
+    "address": {
+      "street": "Rua Leontina Pascoalotti",
+      "number": "158",
+      "neighborhood": "Jardim Planalto",
+      "cityName": "Tatuí",
+      "state": "São Paulo",
+      "countryName": "Brasil",
+      "latitude": -23.343995,
+      "longitude": -47.867382
+    },
+    "smartLockId": "4ccf4bb3-97c2-4542-a666-e0590246ed16"
+  }
 ]

@@ -11,6 +11,24 @@
 </ion-header>
 
 <ion-content padding>
-  <h1> {{job.title}} </h1>
-  <p>{{job.description}}</p>
+  <ion-item>
+    <h1> {{job.title}} </h1>
+  </ion-item>
+  <ion-item text-wrap>
+      {{job.description}}
+  </ion-item>
+  <ion-item >
+    <ion-img [src]="job.imageUrl"></ion-img>
+  </ion-item>
+  <ion-item>
+    <ion-label>Data Agendada</ion-label>
+    <ion-datetime displayFormat="DD/MM/YYYY h:mm" [(ngModel)]="job.schedulingDate"></ion-datetime>
+  </ion-item>
+  <ion-item>
+    <ion-label>Valor do Job</ion-label>
+    <div item-content>
+      {{job.price | currency:'R$'}}
+    </div>
+  </ion-item>
+  <button ion-button block>Cheguei</button>
 </ion-content>
