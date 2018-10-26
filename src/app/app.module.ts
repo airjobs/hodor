@@ -1,3 +1,4 @@
+import { JobDetailPageModule } from './../pages/job-detail/job-detail.module';
 import { ComponentsModule } from './../components/components.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -17,9 +18,10 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
     HttpClientModule,
-    ComponentsModule,
+    IonicModule.forRoot(MyApp),
+    JobDetailPageModule,
+    ComponentsModule
   ],
   bootstrap: [
     IonicApp

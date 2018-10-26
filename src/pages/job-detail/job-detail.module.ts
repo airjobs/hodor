@@ -9,5 +9,11 @@ import { JobDetailPage } from './job-detail';
   imports: [
     IonicPageModule.forChild(JobDetailPage),
   ],
+  exports: [
+    JobDetailPage
+  ],
+  entryComponents: [
+    JobDetailPage
+  ]
 })
 export class JobDetailPageModule {}

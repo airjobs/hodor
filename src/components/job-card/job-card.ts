@@ -1,3 +1,5 @@
+import { JobDetailPage } from './../../pages/job-detail/job-detail';
+import { NavController } from 'ionic-angular';
 import { JobModel } from './../../models/job-model';
 import { Component, Input } from '@angular/core';
 
@@ -8,7 +10,9 @@ import { Component, Input } from '@angular/core';
 export class JobCardComponent {
   @Input('job') job: JobModel;
 
+  constructor(private navController: NavController) {}
+
   public abriDetalhes(job: JobModel){
-    console.log(job.title);
+    this.navController.push(JobDetailPage, job);
   }
 }
